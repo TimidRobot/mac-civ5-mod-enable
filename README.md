@@ -1,7 +1,19 @@
 mac-civ5-mod-enable
 ===================
 
-Updates Mac Civ5 to enable mods and installs subscribed Steam mods.
+Updates the Steam version of Sid Meier's Civilization 5 on the Mac to enable
+mods and installs any subscribed Steam mods.
+
+Easy peasy lemon squeezy.
+
+
+Requirements
+=============
+
+- [Mac Homebrew][brew]
+- The ``p7zip`` package from homebrew
+
+[brew]: http://brew.sh/
 
 
 License
