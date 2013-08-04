@@ -15,10 +15,39 @@ Easy peasy lemon squeezy.
 Requirements
 =============
 
+- Mac OS X which comes with [Terminal]
 - [Mac Homebrew][brew]
-- The ``p7zip`` package installed via ``brew install p7zip``
+- The `p7zip` package installed via `brew install p7zip`
+
+[Terminal]: http://en.wikipedia.org/wiki/Terminal_(OS_X)
 
 [brew]: http://brew.sh/
+
+
+Usage
+=====
+
+1. Download [civ5-mod-enable.sh]
+2. Open Terminal (located in Applications » Utilities)
+3. Assuming you downloaded the script to Downloads, execute the following
+   commands in Terminal:
+
+    cd Downloads
+    bash civ5-mod-enable.sh
+
+[Terminal]: http://en.wikipedia.org/wiki/Terminal_(OS_X)
+
+[civ5-mod-enable.sh]:
+  https://raw.github.com/TimZehta/mac-civ5-mod-enable/master/civ5-mod-enable.sh
+
+
+Troubleshooting
+===============
+
+The script can also be run with the `-P` option to purge existing mods and
+the Civ5 Mods Database (`Civ5ModsDatabase.db`):
+
+    bash civ5-mod-enable.sh -P
 
 
 License
