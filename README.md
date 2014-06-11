@@ -32,10 +32,8 @@ Usage
 3. Assuming you downloaded the script to Downloads, execute the following
    commands in Terminal:
 
-    cd Downloads
-    bash civ5-mod-enable.sh
-
-[Terminal]: http://en.wikipedia.org/wiki/Terminal_(OS_X)
+        cd Downloads
+        bash civ5-mod-enable.sh
 
 [civ5-mod-enable.sh]:
   https://raw.github.com/TimZehta/mac-civ5-mod-enable/master/civ5-mod-enable.sh
