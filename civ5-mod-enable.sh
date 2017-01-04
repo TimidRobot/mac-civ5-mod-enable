@@ -51,7 +51,7 @@ help_request_check() {
     for _arg in "${@}"
     do
         case "${_arg}" in
-            -h | -help | --help ) help_print
+            -h | -help | --help ) help_print ;;
         esac
     done
     shopt -u nocasematch
