@@ -49,7 +49,7 @@ The script can also be run with the `-P` option to purge existing mods and
 the Civ5 Mods Database (`Civ5ModsDatabase.db`):
 
 ```
-bash civ5-mod-enable.sh -P
+civ5-mod-enable.sh -P
 ```
 
 
