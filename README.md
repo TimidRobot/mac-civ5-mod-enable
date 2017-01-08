@@ -59,7 +59,7 @@ civ5-mod-enable.sh -P
 - [Civilization V via Steam]
 - [Mac Homebrew][brew]
 
-[Terminal]: http://en.wikipedia.org/wiki/Terminal_(OS_X)
+[Terminal]: http://en.wikipedia.org/wiki/Terminal_(macOS)
 [Civilization V via Steam]: http://store.steampowered.com/app/8930/
 [brew]: http://brew.sh/
 
