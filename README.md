@@ -17,16 +17,12 @@ Easy peasy lemon squeezy.
    macOS
 2. Install `p7zip`
 
-```
-brew install p7zip
-```
+        brew install p7zip
 
 3. Add the TimZehta "tap" and install dullaplan::
 
-```
-brew tap TimZehta/tap
-brew install civ-5-mod-enable
-```
+        brew tap TimZehta/tap
+        brew install civ-5-mod-enable
 
 Alternatively, since `civ5-mod-enable.sh` is a bash script without esoteric
 dependencies, you can simply download it and ensure it is in your `PATH`.
