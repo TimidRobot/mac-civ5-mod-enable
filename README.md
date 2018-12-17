@@ -13,21 +13,22 @@ Easy peasy lemon squeezy.
 
 ## Install
 
-1. [Install Homebrew][homebrew_install] -- The missing package manager for
+1. [Install Homebrew][brewinstall] -- The missing package manager for
    macOS
-2. Install `p7zip`
-
-        brew install p7zip
-
-3. Add the TimZehta "tap" and install dullaplan::
-
-        brew tap TimZehta/tap
-        brew install civ-5-mod-enable
+2. Install `p7zip`:
+    ```shell
+    brew install p7zip
+    ```
+3. Add the TimidRobot "tap" and install dullaplan:
+    ```shell
+    brew tap TimidRobot/tap
+    brew install civ-5-mod-enable
+    ```
 
 Alternatively, since `civ5-mod-enable.sh` is a bash script without esoteric
 dependencies, you can simply download it and ensure it is in your `PATH`.
 
-[homebrew_install]: http://brew.sh/#install
+[brewinstall]: http://brew.sh/#install
 
 
 ## Usage
@@ -43,30 +44,30 @@ Options:
     -P      Purge existing mods before extracting Steam mod
 ```
 
+
 ## Troubleshooting
 
 The script can also be run with the `-P` option to purge existing mods and
 the Civ5 Mods Database (`Civ5ModsDatabase.db`):
 
-```
+```shell
 civ5-mod-enable.sh -P
 ```
 
 
 ## Requirements
 
-- macOS which comes with [Terminal]
-- [Civilization V via Steam]
+- macOS which comes with [Terminal][terminal]
+- [Civilization V via Steam][civ5]
 - [Mac Homebrew][brew]
 
-[Terminal]: http://en.wikipedia.org/wiki/Terminal_(macOS)
-[Civilization V via Steam]: http://store.steampowered.com/app/8930/
+[terminal]: http://en.wikipedia.org/wiki/Terminal_(macOS)
+[civ5]: http://store.steampowered.com/app/8930/
 [brew]: http://brew.sh/
 
 
 ## License
 
-- [LICENSE][license] ([MIT License][mit])
+- [`LICENSE`][LICENSE] (Expat/[MIT License][mit])
 
-[license]: https://github.com/TimZehta/mac-civ5-mod-enable/blob/master/LICENSE
 [mit]: http://www.opensource.org/licenses/MIT
