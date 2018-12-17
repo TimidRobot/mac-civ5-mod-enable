@@ -68,6 +68,6 @@ civ5-mod-enable.sh -P
 
 ## License
 
-- [`LICENSE`][LICENSE] (Expat/[MIT License][mit])
+- [`LICENSE`](LICENSE) (Expat/[MIT License][mit])
 
 [mit]: http://www.opensource.org/licenses/MIT
